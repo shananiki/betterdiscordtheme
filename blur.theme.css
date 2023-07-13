@@ -48,6 +48,207 @@
   --update-notice-1: none;
 }
 
+
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://i.imgur.com/kYW2H5C.jpg');
+  --background-image-blur: 4px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-image: var(--background-image);
+  --popout-image-blur: 5px;
+  --popout-image-size: cover;
+  --popout-image-position: center;
+  --overlay-image: var(--background-image);
+  --overlay-image-blur: 5px;
+  --overlay-image-size: cover;
+  --overlay-image-position: center;
+  --home-button-image: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.8;
+  --left-brightness: 0.8;
+  --middle-brightness: 0.6;
+  --right-brightness: 0;
+  --overlay-brightness: 0.75;
+  --gradient-primary: 103,58,183;
+  --gradient-secondary: 63,81,181;
+  --link-colour: #00b0f4;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 320deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: gg sans;
+  --window-padding: 5px;
+  --window-roundness: 10px;
+  --update-notice-1: none;
+}
+
 /* Any custom CSS below here */
+
+
+
+
+body,
+.text-sm-normal-3Zj3Iv.subtext-21DUaG,
+.text-sm-normal-3Zj3Iv.title-338goq,
+.text-xs-normal-3SiVjE.subtext-2HDqJ7,
+.nameTag-H6kSJ0,
+.text-md-normal-304U3g,
+.text-xs-normal-3SiVjE.autocompleteRowContentSecondary-Oobh2b,
+.contents-3ca1mk,
+.customStatus-kFfkj5,
+.textarea-_59yqs,
+.connectedAccountNameText-2m46Qn,
+.text-sm-normal-3Zj3Iv {
+    font-family: "Terminus (TTF) for Windows", "MS UI Gothic" !important;
+}
+.username-h_Y3Us {
+    font-weight: bold;
+}
+.name-3BUDLf.container-q97qHp,
+.threadName-2k9mLl,
+.header-2Kx1US,
+.header-1w9Q93 > h3,
+.headerText-1qIDDT,
+.contentTitle-3CylD3,
+.userInfoSectionHeader-2mYYun,
+.headerText-3g1XK9,
+.eyebrow-Ejf06y {
+    color: #2c9080;
+    font-family: "Pixel NES";
+    text-shadow: 0 0 3px #2c9080;
+}
+.wrapper-1S43wv.muted-19J0ih, .wrapper-1S43wv.muted-19J0ih .name-3BUDLf {
+    text-shadow: none;
+}
+.membersGroup-2eiWxl.container-q97qHp {
+    font-family: "Pixel NES";
+}
+.text-xs-normal-3SiVjE.sectionHeader-QsOv68,
+.title-17SveM.base-ZDDK0g,
+.name-3Uvkvr,
+.title-3hptVQ,
+.nickname-t08Mck,
+.searchBarComponent-3N7dCG,
+.name-2m3Cms,
+.tabBarItem-30Te4-,
+.activityName-3YXl6e,
+.listName-PwbeHL {
+    font-family: "Terminus (TTF) for Windows", "MS UI Gothic";
+    font-weight: bold;
+}
+.messageContent-2t3eCI,
+.channelName-3KPsGw,
+.username-u-ebrn,
+.userInfoText-2MFCmH {
+    letter-spacing: -0.7px;
+}
+.avatar-3QF_VA, .avatar-2Vndt_, .mask-1FEkla > foreignObject, .avatar-2e8lTP,
+.svg-2zuE5p > foreignObject, .wrapperSimple-2SFl9K, .wrapper-3Un6-K,
+.mask-1y0tyc.svg-1G_H_8 > foreignObject, .wrapper-3kah-n, .svg-2ifYOU > foreignObject {
+    mask: none !important;
+    border-radius: 15% !important;
+}
+
+.messageContent-2t3eCI {
+    text-shadow: 0 0 20px #ffffff4a;
+}
+.markup-eYLPri a {
+    text-shadow: 0 0 20px #00adf167;
+}
+.username-h_Y3Us {
+    text-shadow: 0 0 20px currentcolor;
+}
+.searchResult-O9NDji .username-h_Y3Us {
+    text-shadow: none;
+}
+.searchResult-O9NDji .messageContent-2t3eCI {
+    text-shadow: none;
+}
+.markup-eYLPri code {
+    text-shadow: none;
+}
+.timestamp-p1Df1m {
+    font-size: 14px !important;
+    vertical-align: bottom;
+    overflow-y: hidden;
+    font-family: "MS Gothic";
+}
+.hotel-msg-userid {
+    font-size: 14px !important;
+    vertical-align: middle;
+    font-family: "MS Gothic";
+    text-shadow: 0 0 20px currentcolor;
+    cursor: default;
+    user-select: none;
+    margin-right: 5px;
+}
+.hotel-msg-userid-voh {
+    opacity: 0;
+}
+.message-2CShn3:hover .hotel-msg-userid-voh {
+    opacity: 1;
+}
+.header-2jRmjb {
+    margin-left: -25px;
+}
+.searchResult-O9NDji .header-2jRmjb {
+    margin-left: 0;
+}
+.hotel-not-today {
+    width: 80px !important;
+}
+.hotel-msg-avatar {
+    display: inline;
+    border-radius: 3px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 4px;
+    user-select: none;
+}
+.message-2CShn3:hover .hotel-msg-avatar {
+    opacity: 0;
+}
+.message-2CShn3:hover .hotel-msg-avatar-media {
+    opacity: 1;
+}
+.hotel-msg-avatar-media {
+    margin-top: 24px;
+}
+.systemMessage-1H1Z20 .hotel-msg-userid {
+    margin-top: 2px;
+}
+
+.repliedMessage-3Z6XBG .username-h_Y3Us,
+.repliedMessage-3Z6XBG .repliedTextContent-2hOYMB,
+.edited-1v5nT8,
+.systemMessage-1H1Z20 .timestamp-p1Df1m {
+    text-shadow: none;
+}
+.hotel-msg-date {
+    color: #292929;
+}
+.searchResult-O9NDji .hotel-msg-userid {
+    position: absolute;
+    margin-left: -17px;
+    vertical-align: sub;
+    text-shadow: none;
+}
+.searchResult-O9NDji .timestamp-p1Df1m {
+    vertical-align: sub;
+}
+.hotel-msg-avatar-not-today {
+    margin-left: -20px;
+}
+.userInfoBody-1zgAd0 .text-sm-normal-3Zj3Iv {
+    -webkit-line-clamp: 12 !important;
+}
+.separator-AebOhG {
+    z-index: -5;
+    user-select: none;
+}
 
 
